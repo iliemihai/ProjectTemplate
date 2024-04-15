@@ -1,0 +1,14 @@
+> env | grep -E '(NV|CU)' | sort
+
+PYTORCH_NVML_BASED_CUDA_CHECK=1
+SECURITYSESSIONID=186b3
+VIRTUAL_ENV=/Users/mihai.ilie/Documents/work/SustTransformers/yet-another-lightning-hydra-template/env
+VIRTUAL_ENV_PROMPT=(env) 
+
+
+> nvidia-smi
+
+Command 'nvidia-smi' returned non-zero exit status 127.
+
+/bin/sh: nvidia-smi: command not found
+

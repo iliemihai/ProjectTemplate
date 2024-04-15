@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/mihai.ilie/Documents/work/SustTransformers/yet-another-lightning-hydra-template/mlruns/0/a624beb776034ec28b6836977c4a3d30/artifacts
+end_time: 1713217643048
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a624beb776034ec28b6836977c4a3d30
+run_name: loud-auk-889
+run_uuid: a624beb776034ec28b6836977c4a3d30
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713217642984
+status: 3
+tags: []
+user_id: mihai.ilie

@@ -1,0 +1,27 @@
+   | Name              | Type               | Params
+----------------------------------------------------------
+0  | model             | SimpleDenseNet     | 68.0 K
+1  | model.model       | Sequential         | 68.0 K
+2  | model.model.0     | Linear             | 50.2 K
+3  | model.model.1     | BatchNorm1d        | 128   
+4  | model.model.2     | ReLU               | 0     
+5  | model.model.3     | Linear             | 8.3 K 
+6  | model.model.4     | BatchNorm1d        | 256   
+7  | model.model.5     | ReLU               | 0     
+8  | model.model.6     | Linear             | 8.3 K 
+9  | model.model.7     | BatchNorm1d        | 128   
+10 | model.model.8     | ReLU               | 0     
+11 | model.model.9     | Linear             | 650   
+12 | loss              | CrossEntropyLoss   | 0     
+13 | train_metric      | MulticlassAccuracy | 0     
+14 | train_add_metrics | MetricCollection   | 0     
+15 | valid_metric      | MulticlassAccuracy | 0     
+16 | valid_metric_best | MaxMetric          | 0     
+17 | valid_add_metrics | MetricCollection   | 0     
+18 | test_metric       | MulticlassAccuracy | 0     
+19 | test_add_metrics  | MetricCollection   | 0     
+----------------------------------------------------------
+68.0 K    Trainable params
+0         Non-trainable params
+68.0 K    Total params
+0.272     Total estimated model params size (MB)

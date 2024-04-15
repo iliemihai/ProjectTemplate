@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/mihai.ilie/Documents/work/SustTransformers/yet-another-lightning-hydra-template/mlruns/0/d52272a4ada74753be4ef48350bee9a0/artifacts
+end_time: 1713217785048
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d52272a4ada74753be4ef48350bee9a0
+run_name: popular-dove-264
+run_uuid: d52272a4ada74753be4ef48350bee9a0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713217733279
+status: 3
+tags: []
+user_id: mihai.ilie

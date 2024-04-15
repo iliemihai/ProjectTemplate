@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/mihai.ilie/Documents/work/SustTransformers/yet-another-lightning-hydra-template/mlruns/0/43c91f9169744d6ba08465ba3623c330/artifacts
+end_time: 1713217705052
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 43c91f9169744d6ba08465ba3623c330
+run_name: nervous-skink-609
+run_uuid: 43c91f9169744d6ba08465ba3623c330
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713217691493
+status: 3
+tags: []
+user_id: mihai.ilie

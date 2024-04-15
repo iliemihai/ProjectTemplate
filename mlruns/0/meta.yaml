@@ -1,4 +1,4 @@
-artifact_location: file:///Users/mihai.ilie/Documents/work/yet-another-lightning-hydra-template/mlruns/0
+artifact_location: file:///Users/mihai.ilie/Documents/work/SustTransformers/yet-another-lightning-hydra-template/mlruns/0
 experiment_id: '0'
 lifecycle_stage: active
 name: mnist_pytorch_lightning

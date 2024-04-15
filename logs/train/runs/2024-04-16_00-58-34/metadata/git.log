@@ -1,0 +1,292 @@
+> git describe --tags --long --dirty --always
+
+5631fcb-dirty
+
+
+> git describe --all --long --dirty --always
+
+heads/main-0-g5631fcb-dirty
+
+
+> git branch --verbose --verbose --all
+
+* main                5631fcb [origin/main] first commit
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main 5631fcb first commit
+
+
+> git remote --verbose
+
+origin	git@github.com:iliemihai/ProjectTemplate.git (fetch)
+origin	git@github.com:iliemihai/ProjectTemplate.git (push)
+
+
+> git status
+
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   data/.DS_Store
+	deleted:    data/SUSTAIN/1_filter_citations.py
+	deleted:    data/SUSTAIN/2_generate_questions_chatgpt.py
+	deleted:    data/SUSTAIN/3_run_requests.py
+	deleted:    data/SUSTAIN/4_create_dataset.py
+	deleted:    data/SUSTAIN/5_read_datasets.py
+	deleted:    data/SUSTAIN/test.pkl
+	deleted:    data/SUSTAIN/train.pkl
+	modified:   eval.log
+	modified:   logs/.DS_Store
+	deleted:    logs/train/runs/2024-04-16_00-24-56/.hydra/config.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/.hydra/hydra.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/.hydra/overrides.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/config_tree.log
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/.train.yaml.un~
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/callbacks/default.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/callbacks/early_stopping.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/callbacks/light_progress_bar.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/callbacks/mnist.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/callbacks/model_checkpoint.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/callbacks/model_summary.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/callbacks/none.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/callbacks/rich_progress_bar.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/callbacks/ssl.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/callbacks/wandb.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/datamodule/datamodule.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/datamodule/h5datamodule.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/datamodule/h5datamodule_multiple.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/datamodule/loaders/default.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/datamodule/mnist.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/datamodule/transforms/default.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/debug/default.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/debug/fdr.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/debug/limit.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/debug/overfit.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/debug/profiler.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/eval.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/experiment/example.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/extras/default.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/hparams_search/mnist_optuna.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/hydra/default.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/local/.gitkeep
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/logger/comet.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/logger/csv.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/logger/many_loggers.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/logger/mlflow.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/logger/neptune.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/logger/tensorboard.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/logger/wandb.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/mnist_eval.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/mnist_train.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/module/mnist.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/module/multiple.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/module/network/classification.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/module/network/classification_multiple.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/module/network/classification_multiple_vicreg.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/module/network/mnist.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/module/network/reidentification.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/module/single.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/paths/default.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/train.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/trainer/.default.yaml.un~
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/trainer/cpu.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/trainer/ddp.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/trainer/ddp_sim.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/trainer/default.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/trainer/gpu.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/configs/trainer/mps.yaml
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/git.log
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/gpu.log
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/pip.log
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/.eval.py.un~
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/.train.py.un~
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/__init__.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/__pycache__/__init__.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/__pycache__/eval.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/__pycache__/train.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/callbacks/__init__.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/callbacks/__pycache__/__init__.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/callbacks/__pycache__/light_progress_bar.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/callbacks/light_progress_bar.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/callbacks/wandb_callbacks.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/datamodules/__init__.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/datamodules/__pycache__/__init__.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/datamodules/__pycache__/datamodules.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/datamodules/__pycache__/mnist_datamodule.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/datamodules/components/__init__.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/datamodules/components/__pycache__/__init__.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/datamodules/components/__pycache__/transforms.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/datamodules/components/dataset.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/datamodules/components/h5_file.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/datamodules/components/parse.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/datamodules/components/transforms.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/datamodules/components/utils.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/datamodules/datamodules.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/datamodules/datasets.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/datamodules/mnist_datamodule.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/datamodules/sustain_datamodule.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/eval.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/.single_module.py.un~
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/__init__.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/__pycache__/__init__.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/__pycache__/single_module.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/components/.lit_module.py.un~
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/components/__init__.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/components/__pycache__/__init__.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/components/__pycache__/lit_module.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/components/grad_cam.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/components/lit_module.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/losses/__init__.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/losses/__pycache__/__init__.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/losses/__pycache__/losses.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/losses/components/__init__.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/losses/components/__pycache__/__init__.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/losses/components/__pycache__/focal_loss.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/losses/components/__pycache__/margin_loss.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/losses/components/__pycache__/vicreg_loss.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/losses/components/focal_loss.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/losses/components/margin_loss.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/losses/components/vicreg_loss.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/losses/losses.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/metrics/__init__.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/metrics/__pycache__/__init__.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/metrics/__pycache__/eval_metrics.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/metrics/__pycache__/metrics.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/metrics/components/__init__.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/metrics/components/__pycache__/__init__.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/metrics/components/__pycache__/classification.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/metrics/components/__pycache__/segmentation.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/metrics/components/classification.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/metrics/components/segmentation.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/metrics/eval_metrics.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/metrics/metrics.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/models/__init__.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/models/__pycache__/__init__.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/models/__pycache__/module.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/models/__pycache__/simple_dense_net.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/models/classification.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/models/module.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/models/reidentification.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/models/simple_dense_net.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/multiple_module.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/modules/single_module.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/train.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/utils/.__init__.py.un~
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/utils/__init__.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/utils/__pycache__/__init__.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/utils/__pycache__/env_utils.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/utils/__pycache__/metadata_utils.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/utils/__pycache__/pylogger.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/utils/__pycache__/rich_utils.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/utils/__pycache__/saving_utils.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/utils/__pycache__/tf_utils.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/utils/__pycache__/utils.cpython-310.pyc
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/utils/env_utils.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/utils/metadata_utils.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/utils/pylogger.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/utils/rich_utils.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/utils/saving_utils.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/utils/tf_utils.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/metadata/src/utils/utils.py
+	deleted:    logs/train/runs/2024-04-16_00-24-56/tags.log
+	deleted:    logs/train/runs/2024-04-16_00-24-56/tensorboard/version_0/events.out.tfevents.1713216299.RO-JNVK96V000.20545.0
+	modified:   mlruns/.DS_Store
+	deleted:    mlruns/0/429e3cf77dfa4b95b32b95e176e2b120/meta.yaml
+	deleted:    mlruns/0/429e3cf77dfa4b95b32b95e176e2b120/params/min_delta
+	deleted:    mlruns/0/429e3cf77dfa4b95b32b95e176e2b120/params/mode
+	deleted:    mlruns/0/429e3cf77dfa4b95b32b95e176e2b120/params/monitor
+	deleted:    mlruns/0/429e3cf77dfa4b95b32b95e176e2b120/params/patience
+	deleted:    mlruns/0/429e3cf77dfa4b95b32b95e176e2b120/params/stopped_epoch
+	deleted:    mlruns/0/429e3cf77dfa4b95b32b95e176e2b120/tags/mlflow.source.name
+	deleted:    mlruns/0/429e3cf77dfa4b95b32b95e176e2b120/tags/mlflow.source.type
+	deleted:    mlruns/0/429e3cf77dfa4b95b32b95e176e2b120/tags/mlflow.user
+	modified:   mlruns/0/meta.yaml
+	deleted:    src/.eval.py.un~
+	deleted:    src/.train.py.un~
+	modified:   src/__pycache__/__init__.cpython-310.pyc
+	modified:   src/__pycache__/eval.cpython-310.pyc
+	modified:   src/__pycache__/train.cpython-310.pyc
+	modified:   src/callbacks/__pycache__/__init__.cpython-310.pyc
+	modified:   src/callbacks/__pycache__/light_progress_bar.cpython-310.pyc
+	modified:   src/datamodules/__pycache__/__init__.cpython-310.pyc
+	modified:   src/datamodules/__pycache__/datamodules.cpython-310.pyc
+	modified:   src/datamodules/__pycache__/mnist_datamodule.cpython-310.pyc
+	modified:   src/datamodules/components/__pycache__/__init__.cpython-310.pyc
+	modified:   src/datamodules/components/__pycache__/transforms.cpython-310.pyc
+	deleted:    src/datamodules/sustain_datamodule.py
+	modified:   src/modules/__pycache__/__init__.cpython-310.pyc
+	modified:   src/modules/__pycache__/single_module.cpython-310.pyc
+	modified:   src/modules/components/__pycache__/__init__.cpython-310.pyc
+	modified:   src/modules/components/__pycache__/lit_module.cpython-310.pyc
+	modified:   src/modules/losses/__pycache__/__init__.cpython-310.pyc
+	modified:   src/modules/losses/__pycache__/losses.cpython-310.pyc
+	modified:   src/modules/losses/components/__pycache__/__init__.cpython-310.pyc
+	modified:   src/modules/losses/components/__pycache__/focal_loss.cpython-310.pyc
+	modified:   src/modules/losses/components/__pycache__/margin_loss.cpython-310.pyc
+	modified:   src/modules/losses/components/__pycache__/vicreg_loss.cpython-310.pyc
+	modified:   src/modules/metrics/__pycache__/__init__.cpython-310.pyc
+	modified:   src/modules/metrics/__pycache__/eval_metrics.cpython-310.pyc
+	modified:   src/modules/metrics/__pycache__/metrics.cpython-310.pyc
+	modified:   src/modules/metrics/components/__pycache__/__init__.cpython-310.pyc
+	modified:   src/modules/metrics/components/__pycache__/classification.cpython-310.pyc
+	modified:   src/modules/metrics/components/__pycache__/segmentation.cpython-310.pyc
+	modified:   src/modules/models/__pycache__/__init__.cpython-310.pyc
+	modified:   src/modules/models/__pycache__/module.cpython-310.pyc
+	modified:   src/modules/models/__pycache__/simple_dense_net.cpython-310.pyc
+	deleted:    src/utils/.__init__.py.un~
+	modified:   src/utils/__pycache__/__init__.cpython-310.pyc
+	modified:   src/utils/__pycache__/env_utils.cpython-310.pyc
+	modified:   src/utils/__pycache__/metadata_utils.cpython-310.pyc
+	modified:   src/utils/__pycache__/pylogger.cpython-310.pyc
+	modified:   src/utils/__pycache__/rich_utils.cpython-310.pyc
+	modified:   src/utils/__pycache__/saving_utils.cpython-310.pyc
+	modified:   src/utils/__pycache__/utils.cpython-310.pyc
+	modified:   tests/__pycache__/__init__.cpython-310.pyc
+	deleted:    tests/__pycache__/conftest.cpython-310-pytest-8.0.2.pyc
+	deleted:    tests/__pycache__/test_configs.cpython-310-pytest-8.0.2.pyc
+	deleted:    tests/__pycache__/test_datamodule.cpython-310-pytest-8.0.2.pyc
+	deleted:    tests/__pycache__/test_eval.cpython-310-pytest-8.0.2.pyc
+	deleted:    tests/__pycache__/test_light_progress_bar.cpython-310-pytest-8.0.2.pyc
+	deleted:    tests/__pycache__/test_load_losses.cpython-310-pytest-8.0.2.pyc
+	deleted:    tests/__pycache__/test_load_metrics.cpython-310-pytest-8.0.2.pyc
+	deleted:    tests/__pycache__/test_models.cpython-310-pytest-8.0.2.pyc
+	deleted:    tests/__pycache__/test_sweeps.cpython-310-pytest-8.0.2.pyc
+	deleted:    tests/__pycache__/test_train.cpython-310-pytest-8.0.2.pyc
+	deleted:    tests/__pycache__/test_utils.cpython-310-pytest-8.0.2.pyc
+	modified:   tests/helpers/__pycache__/__init__.cpython-310.pyc
+	modified:   tests/helpers/__pycache__/package_available.cpython-310.pyc
+	modified:   tests/helpers/__pycache__/run_if.cpython-310.pyc
+	modified:   tests/helpers/__pycache__/run_sh_command.cpython-310.pyc
+	modified:   train.log
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	data/MNIST/
+	env/
+	logs/train/runs/2024-04-16_00-37-52/
+	logs/train/runs/2024-04-16_00-47-22/
+	logs/train/runs/2024-04-16_00-48-11/
+	logs/train/runs/2024-04-16_00-48-53/
+	logs/train/runs/2024-04-16_00-58-34/
+	mlruns/0/43c91f9169744d6ba08465ba3623c330/
+	mlruns/0/627f37b97e3049d590ae4b337d1104c6/
+	mlruns/0/a624beb776034ec28b6836977c4a3d30/
+	mlruns/0/b4a37d1cb7d5447e89b5afb14d18a622/
+	mlruns/0/d52272a4ada74753be4ef48350bee9a0/
+	src/datamodules/mistral_datamodule.py
+	tests/__pycache__/conftest.cpython-310-pytest-8.1.1.pyc
+	tests/__pycache__/test_configs.cpython-310-pytest-8.1.1.pyc
+	tests/__pycache__/test_datamodule.cpython-310-pytest-8.1.1.pyc
+	tests/__pycache__/test_eval.cpython-310-pytest-8.1.1.pyc
+	tests/__pycache__/test_light_progress_bar.cpython-310-pytest-8.1.1.pyc
+	tests/__pycache__/test_load_losses.cpython-310-pytest-8.1.1.pyc
+	tests/__pycache__/test_load_metrics.cpython-310-pytest-8.1.1.pyc
+	tests/__pycache__/test_models.cpython-310-pytest-8.1.1.pyc
+	tests/__pycache__/test_sweeps.cpython-310-pytest-8.1.1.pyc
+	tests/__pycache__/test_train.cpython-310-pytest-8.1.1.pyc
+	tests/__pycache__/test_utils.cpython-310-pytest-8.1.1.pyc
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
