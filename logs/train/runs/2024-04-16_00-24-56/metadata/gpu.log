@@ -1,0 +1,11 @@
+> env | grep -E '(NV|CU)' | sort
+
+SECURITYSESSIONID=186b3
+
+
+> nvidia-smi
+
+Command 'nvidia-smi' returned non-zero exit status 127.
+
+/bin/sh: nvidia-smi: command not found
+

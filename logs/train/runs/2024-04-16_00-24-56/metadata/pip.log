@@ -1,0 +1,13 @@
+> pip freeze --disable-pip-version-check
+
+Command 'pip freeze --disable-pip-version-check' returned non-zero exit status 127.
+
+/bin/sh: pip: command not found
+
+
+> pip freeze --disable-pip-version-check --user
+
+Command 'pip freeze --disable-pip-version-check --user' returned non-zero exit status 127.
+
+/bin/sh: pip: command not found
+

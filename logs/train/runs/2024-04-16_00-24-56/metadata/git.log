@@ -1,0 +1,34 @@
+> git describe --tags --long --dirty --always
+
+Command 'git describe --tags --long --dirty --always' returned non-zero exit status 128.
+
+fatal: not a git repository (or any of the parent directories): .git
+
+
+> git describe --all --long --dirty --always
+
+Command 'git describe --all --long --dirty --always' returned non-zero exit status 128.
+
+fatal: not a git repository (or any of the parent directories): .git
+
+
+> git branch --verbose --verbose --all
+
+Command 'git branch --verbose --verbose --all' returned non-zero exit status 128.
+
+fatal: not a git repository (or any of the parent directories): .git
+
+
+> git remote --verbose
+
+Command 'git remote --verbose' returned non-zero exit status 128.
+
+fatal: not a git repository (or any of the parent directories): .git
+
+
+> git status
+
+Command 'git status' returned non-zero exit status 128.
+
+fatal: not a git repository (or any of the parent directories): .git
+

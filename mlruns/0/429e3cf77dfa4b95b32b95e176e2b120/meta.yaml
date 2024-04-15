@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/mihai.ilie/Documents/work/yet-another-lightning-hydra-template/mlruns/0/429e3cf77dfa4b95b32b95e176e2b120/artifacts
+end_time: 1713216299871
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 429e3cf77dfa4b95b32b95e176e2b120
+run_uuid: 429e3cf77dfa4b95b32b95e176e2b120
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713216296721
+status: 3
+tags: []
+user_id: mihai.ilie

@@ -1,0 +1,507 @@
+[2024-02-26 14:53:33,641][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2024-02-26 14:53:33,644][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2024-02-26 14:53:33,644][src.utils.rich_utils][WARNING] - Field 'logger' not found in config. Skipping 'logger' config printing...
+[2024-02-26 14:53:33,829][__main__][INFO] - Seed everything with <42>
+[2024-02-26 14:53:33,832][__main__][INFO] - Instantiating datamodule <src.datamodules.mnist_datamodule.MNISTDataModule>
+[2024-02-26 14:53:34,024][__main__][INFO] - Instantiating lightning model <src.modules.single_module.MNISTLitModule>
+[2024-02-26 14:53:34,052][__main__][INFO] - Instantiating callbacks...
+[2024-02-26 14:53:34,053][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-02-26 14:53:34,054][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-02-26 14:53:34,055][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-02-26 14:53:34,056][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-02-26 14:53:34,056][__main__][INFO] - Instantiating loggers...
+[2024-02-26 14:53:34,056][src.utils.utils][WARNING] - No logger configs found! Skipping...
+[2024-02-26 14:53:34,056][__main__][INFO] - Instantiating plugins...
+[2024-02-26 14:53:34,056][src.utils.utils][WARNING] - No plugins configs found! Skipping...
+[2024-02-26 14:53:34,056][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2024-02-26 14:53:34,100][__main__][INFO] - Logging metadata!
+[2024-02-26 14:53:34,920][__main__][INFO] - Starting training!
+[2024-02-26 14:54:12,619][__main__][INFO] - Starting testing!
+[2024-02-26 14:54:13,044][__main__][INFO] - Best ckpt path: /Users/mihai.ilie/Documents/work/SustTransformers/yet-another-lightning-hydra-template/logs/train/runs/2024-02-26_14-53-33/checkpoints/epoch006-loss_valid0.0826-metric_valid0.9778.ckpt
+[2024-02-26 14:54:13,044][__main__][INFO] - Starting saving state dicts!
+[2024-02-26 14:54:13,046][src.utils.saving_utils][INFO] - Last ckpt state dict saved to: /Users/mihai.ilie/Documents/work/SustTransformers/yet-another-lightning-hydra-template/logs/train/runs/2024-02-26_14-53-33/last_ckpt.pth
+[2024-02-26 14:54:13,055][src.utils.saving_utils][INFO] - Best ckpt state dict saved to: /Users/mihai.ilie/Documents/work/SustTransformers/yet-another-lightning-hydra-template/logs/train/runs/2024-02-26_14-53-33/best_ckpt_0_9778000116348267.pth
+[2024-02-26 14:54:13,058][src.utils.utils][INFO] - Output dir: /Users/mihai.ilie/Documents/work/SustTransformers/yet-another-lightning-hydra-template/logs/train/runs/2024-02-26_14-53-33
+[2024-02-26 14:54:13,058][src.utils.utils][INFO] - Closing loggers...
+[2024-02-26 14:54:13,058][src.utils.utils][INFO] - Metric name is None! Skipping metric value retrieval...
+[2024-02-26 16:10:18,282][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2024-02-26 16:10:18,285][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2024-02-26 16:10:18,505][__main__][INFO] - Seed everything with <42>
+[2024-02-26 16:10:18,508][__main__][INFO] - Instantiating datamodule <src.datamodules.mnist_datamodule.MNISTDataModule>
+[2024-02-26 16:10:18,747][__main__][INFO] - Instantiating lightning model <src.modules.single_module.MNISTLitModule>
+[2024-02-26 16:10:18,785][__main__][INFO] - Instantiating callbacks...
+[2024-02-26 16:10:18,785][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-02-26 16:10:18,787][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-02-26 16:10:18,788][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-02-26 16:10:18,788][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-02-26 16:10:18,788][__main__][INFO] - Instantiating loggers...
+[2024-02-26 16:10:18,789][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2024-02-26 16:10:18,789][__main__][INFO] - Instantiating plugins...
+[2024-02-26 16:10:18,789][src.utils.utils][WARNING] - No plugins configs found! Skipping...
+[2024-02-26 16:10:18,789][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2024-02-26 16:10:18,834][__main__][INFO] - Logging hyperparameters!
+[2024-02-26 16:10:18,853][__main__][INFO] - Logging metadata!
+[2024-02-26 16:10:19,658][__main__][INFO] - Starting training!
+[2024-02-26 16:10:59,800][__main__][INFO] - Starting testing!
+[2024-02-26 16:11:00,276][__main__][INFO] - Best ckpt path: /Users/mihai.ilie/Documents/work/SustTransformers/yet-another-lightning-hydra-template/logs/train/runs/2024-02-26_16-10-18/checkpoints/epoch006-loss_valid0.0826-metric_valid0.9778.ckpt
+[2024-02-26 16:11:00,276][__main__][INFO] - Starting saving state dicts!
+[2024-02-26 16:11:00,278][src.utils.saving_utils][INFO] - Last ckpt state dict saved to: /Users/mihai.ilie/Documents/work/SustTransformers/yet-another-lightning-hydra-template/logs/train/runs/2024-02-26_16-10-18/last_ckpt.pth
+[2024-02-26 16:11:00,287][src.utils.saving_utils][INFO] - Best ckpt state dict saved to: /Users/mihai.ilie/Documents/work/SustTransformers/yet-another-lightning-hydra-template/logs/train/runs/2024-02-26_16-10-18/best_ckpt_0_9778000116348267.pth
+[2024-02-26 16:11:00,289][src.utils.utils][INFO] - Output dir: /Users/mihai.ilie/Documents/work/SustTransformers/yet-another-lightning-hydra-template/logs/train/runs/2024-02-26_16-10-18
+[2024-02-26 16:11:00,289][src.utils.utils][INFO] - Closing loggers...
+[2024-02-26 16:11:00,289][src.utils.utils][INFO] - Metric name is None! Skipping metric value retrieval...
+[2024-02-26 16:28:58,923][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2024-02-26 16:28:58,927][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2024-02-26 16:28:59,117][__main__][INFO] - Seed everything with <42>
+[2024-02-26 16:28:59,123][__main__][INFO] - Instantiating datamodule <src.datamodules.mnist_datamodule.MNISTDataModule>
+[2024-02-26 16:28:59,312][__main__][INFO] - Instantiating lightning model <src.modules.single_module.MNISTLitModule>
+[2024-02-26 16:28:59,347][__main__][INFO] - Instantiating callbacks...
+[2024-02-26 16:28:59,347][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-02-26 16:28:59,349][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-02-26 16:28:59,350][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-02-26 16:28:59,350][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-02-26 16:28:59,351][__main__][INFO] - Instantiating loggers...
+[2024-02-26 16:28:59,351][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2024-02-26 16:28:59,352][__main__][INFO] - Instantiating plugins...
+[2024-02-26 16:28:59,352][src.utils.utils][WARNING] - No plugins configs found! Skipping...
+[2024-02-26 16:28:59,352][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2024-02-26 16:28:59,395][__main__][INFO] - Logging hyperparameters!
+[2024-02-26 16:28:59,414][__main__][INFO] - Logging metadata!
+[2024-02-26 16:29:00,238][__main__][INFO] - Starting training!
+[2024-02-26 16:29:39,601][__main__][INFO] - Starting testing!
+[2024-02-26 16:29:40,042][__main__][INFO] - Best ckpt path: /Users/mihai.ilie/Documents/work/SustTransformers/yet-another-lightning-hydra-template/logs/train/runs/2024-02-26_16-28-58/checkpoints/epoch006-loss_valid0.0826-metric_valid0.9778.ckpt
+[2024-02-26 16:29:40,042][__main__][INFO] - Starting saving state dicts!
+[2024-02-26 16:29:40,044][src.utils.saving_utils][INFO] - Last ckpt state dict saved to: /Users/mihai.ilie/Documents/work/SustTransformers/yet-another-lightning-hydra-template/logs/train/runs/2024-02-26_16-28-58/last_ckpt.pth
+[2024-02-26 16:29:40,053][src.utils.saving_utils][INFO] - Best ckpt state dict saved to: /Users/mihai.ilie/Documents/work/SustTransformers/yet-another-lightning-hydra-template/logs/train/runs/2024-02-26_16-28-58/best_ckpt_0_9778000116348267.pth
+[2024-02-26 16:29:40,054][src.utils.utils][INFO] - Output dir: /Users/mihai.ilie/Documents/work/SustTransformers/yet-another-lightning-hydra-template/logs/train/runs/2024-02-26_16-28-58
+[2024-02-26 16:29:40,054][src.utils.utils][INFO] - Closing loggers...
+[2024-02-26 16:29:40,055][src.utils.utils][INFO] - Metric name is None! Skipping metric value retrieval...
+[2024-02-27 14:12:30,758][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2024-02-27 14:12:30,762][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2024-02-27 14:12:30,963][__main__][INFO] - Seed everything with <42>
+[2024-02-27 14:12:30,967][__main__][INFO] - Instantiating datamodule <src.datamodules.mnist_datamodule.MNISTDataModule>
+[2024-02-27 14:12:31,514][__main__][INFO] - Instantiating lightning model <src.modules.single_module.MNISTLitModule>
+[2024-02-27 14:12:31,554][__main__][INFO] - Instantiating callbacks...
+[2024-02-27 14:12:31,554][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-02-27 14:12:31,556][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-02-27 14:12:31,557][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-02-27 14:12:31,557][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-02-27 14:12:31,558][__main__][INFO] - Instantiating loggers...
+[2024-02-27 14:12:31,558][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2024-02-27 14:12:31,559][__main__][INFO] - Instantiating plugins...
+[2024-02-27 14:12:31,559][src.utils.utils][WARNING] - No plugins configs found! Skipping...
+[2024-02-27 14:12:31,559][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2024-02-27 14:12:31,617][__main__][INFO] - Logging hyperparameters!
+[2024-02-27 14:12:31,678][__main__][INFO] - Logging metadata!
+[2024-02-27 14:12:32,653][__main__][INFO] - Starting training!
+[2024-02-27 14:12:43,827][src.utils.utils][INFO] - Output dir: /Users/mihai.ilie/Documents/work/SustTransformers/yet-another-lightning-hydra-template/logs/train/runs/2024-02-27_14-12-30
+[2024-02-27 14:12:43,827][src.utils.utils][INFO] - Closing loggers...
+[2024-03-04 13:35:39,160][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2024-03-04 13:35:39,163][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2024-03-04 13:35:39,238][root][WARNING] - Malformed experiment 'models'. Detailed error Yaml file '/Users/mihai.ilie/Documents/work/ProjTemp/mlruns/models/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/store/tracking/file_store.py", line 270, in list_experiments
+    experiment = self._get_experiment(exp_id, view_type)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/store/tracking/file_store.py", line 394, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/store/tracking/file_store.py", line 1049, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/store/tracking/file_store.py", line 1042, in _read_helper
+    result = read_yaml(root, file_name)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/utils/file_utils.py", line 181, in read_yaml
+    raise MissingConfigException("Yaml file '%s' does not exist." % file_path)
+mlflow.exceptions.MissingConfigException: Yaml file '/Users/mihai.ilie/Documents/work/ProjTemp/mlruns/models/meta.yaml' does not exist.
+[2024-03-04 13:35:39,245][__main__][INFO] - Seed everything with <42>
+[2024-03-04 13:35:39,247][__main__][INFO] - Instantiating datamodule <src.datamodules.mnist_datamodule.MNISTDataModule>
+[2024-03-04 13:35:39,252][src.utils.utils][ERROR] - 
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/utils.py", line 644, in _locate
+    obj = getattr(obj, part)
+AttributeError: module 'src.datamodules' has no attribute 'mnist_datamodule'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/utils.py", line 650, in _locate
+    obj = import_module(mod)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/mihai.ilie/Documents/work/ProjTemp/src/datamodules/mnist_datamodule.py", line 8, in <module>
+    from src.datamodules.components.transforms import TransformsWrapper
+  File "/Users/mihai.ilie/Documents/work/ProjTemp/src/datamodules/components/transforms.py", line 3, in <module>
+    import albumentations
+ModuleNotFoundError: No module named 'albumentations'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/instantiate/_instantiate2.py", line 134, in _resolve_target
+    target = _locate(target)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/utils.py", line 653, in _locate
+    raise ImportError(
+ImportError: Error loading 'src.datamodules.mnist_datamodule.MNISTDataModule':
+ModuleNotFoundError("No module named 'albumentations'")
+Are you sure that 'mnist_datamodule' is importable from module 'src.datamodules'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mihai.ilie/Documents/work/ProjTemp/src/utils/utils.py", line 48, in wrap
+    metric_dict, object_dict = task_func(cfg=cfg)
+  File "/Users/mihai.ilie/Documents/work/ProjTemp/src/train.py", line 113, in train
+    datamodule: LightningDataModule = hydra.utils.instantiate(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/instantiate/_instantiate2.py", line 226, in instantiate
+    return instantiate_node(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/instantiate/_instantiate2.py", line 333, in instantiate_node
+    _target_ = _resolve_target(node.get(_Keys.TARGET), full_key)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/instantiate/_instantiate2.py", line 139, in _resolve_target
+    raise InstantiationException(msg) from e
+hydra.errors.InstantiationException: Error locating target 'src.datamodules.mnist_datamodule.MNISTDataModule', set env var HYDRA_FULL_ERROR=1 to see chained exception.
+full_key: datamodule
+[2024-03-04 13:35:39,253][src.utils.utils][INFO] - Output dir: /Users/mihai.ilie/Documents/work/ProjTemp/logs/train/runs/2024-03-04_13-35-39
+[2024-03-04 13:35:39,253][src.utils.utils][INFO] - Closing loggers...
+[2024-03-04 14:04:52,302][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2024-03-04 14:04:52,305][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2024-03-04 14:04:52,377][root][WARNING] - Malformed experiment 'models'. Detailed error Yaml file '/Users/mihai.ilie/Documents/work/ProjTemp/mlruns/models/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/store/tracking/file_store.py", line 270, in list_experiments
+    experiment = self._get_experiment(exp_id, view_type)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/store/tracking/file_store.py", line 394, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/store/tracking/file_store.py", line 1049, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/store/tracking/file_store.py", line 1042, in _read_helper
+    result = read_yaml(root, file_name)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/utils/file_utils.py", line 181, in read_yaml
+    raise MissingConfigException("Yaml file '%s' does not exist." % file_path)
+mlflow.exceptions.MissingConfigException: Yaml file '/Users/mihai.ilie/Documents/work/ProjTemp/mlruns/models/meta.yaml' does not exist.
+[2024-03-04 14:04:52,384][__main__][INFO] - Seed everything with <42>
+[2024-03-04 14:04:52,386][__main__][INFO] - Instantiating datamodule <src.datamodules.mnist_datamodule.MNISTDataModule>
+[2024-03-04 14:04:52,391][src.utils.utils][ERROR] - 
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/utils.py", line 644, in _locate
+    obj = getattr(obj, part)
+AttributeError: module 'src.datamodules' has no attribute 'mnist_datamodule'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/utils.py", line 650, in _locate
+    obj = import_module(mod)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/mihai.ilie/Documents/work/ProjTemp/src/datamodules/mnist_datamodule.py", line 8, in <module>
+    from src.datamodules.components.transforms import TransformsWrapper
+  File "/Users/mihai.ilie/Documents/work/ProjTemp/src/datamodules/components/transforms.py", line 3, in <module>
+    import albumentations
+ModuleNotFoundError: No module named 'albumentations'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/instantiate/_instantiate2.py", line 134, in _resolve_target
+    target = _locate(target)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/utils.py", line 653, in _locate
+    raise ImportError(
+ImportError: Error loading 'src.datamodules.mnist_datamodule.MNISTDataModule':
+ModuleNotFoundError("No module named 'albumentations'")
+Are you sure that 'mnist_datamodule' is importable from module 'src.datamodules'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mihai.ilie/Documents/work/ProjTemp/src/utils/utils.py", line 48, in wrap
+    metric_dict, object_dict = task_func(cfg=cfg)
+  File "/Users/mihai.ilie/Documents/work/ProjTemp/src/train.py", line 113, in train
+    datamodule: LightningDataModule = hydra.utils.instantiate(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/instantiate/_instantiate2.py", line 226, in instantiate
+    return instantiate_node(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/instantiate/_instantiate2.py", line 333, in instantiate_node
+    _target_ = _resolve_target(node.get(_Keys.TARGET), full_key)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/instantiate/_instantiate2.py", line 139, in _resolve_target
+    raise InstantiationException(msg) from e
+hydra.errors.InstantiationException: Error locating target 'src.datamodules.mnist_datamodule.MNISTDataModule', set env var HYDRA_FULL_ERROR=1 to see chained exception.
+full_key: datamodule
+[2024-03-04 14:04:52,393][src.utils.utils][INFO] - Output dir: /Users/mihai.ilie/Documents/work/ProjTemp/logs/train/runs/2024-03-04_14-04-52
+[2024-03-04 14:04:52,393][src.utils.utils][INFO] - Closing loggers...
+[2024-03-04 14:05:33,004][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2024-03-04 14:05:33,006][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2024-03-04 14:05:33,076][root][WARNING] - Malformed experiment 'models'. Detailed error Yaml file '/Users/mihai.ilie/Documents/work/ProjTemp/mlruns/models/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/store/tracking/file_store.py", line 270, in list_experiments
+    experiment = self._get_experiment(exp_id, view_type)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/store/tracking/file_store.py", line 394, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/store/tracking/file_store.py", line 1049, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/store/tracking/file_store.py", line 1042, in _read_helper
+    result = read_yaml(root, file_name)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/utils/file_utils.py", line 181, in read_yaml
+    raise MissingConfigException("Yaml file '%s' does not exist." % file_path)
+mlflow.exceptions.MissingConfigException: Yaml file '/Users/mihai.ilie/Documents/work/ProjTemp/mlruns/models/meta.yaml' does not exist.
+[2024-03-04 14:05:33,081][__main__][INFO] - Seed everything with <42>
+[2024-03-04 14:05:33,083][__main__][INFO] - Instantiating datamodule <src.datamodules.mnist_datamodule.MNISTDataModule>
+[2024-03-04 14:05:33,087][src.utils.utils][ERROR] - 
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/utils.py", line 644, in _locate
+    obj = getattr(obj, part)
+AttributeError: module 'src.datamodules' has no attribute 'mnist_datamodule'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/utils.py", line 650, in _locate
+    obj = import_module(mod)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/mihai.ilie/Documents/work/ProjTemp/src/datamodules/mnist_datamodule.py", line 8, in <module>
+    from src.datamodules.components.transforms import TransformsWrapper
+  File "/Users/mihai.ilie/Documents/work/ProjTemp/src/datamodules/components/transforms.py", line 3, in <module>
+    import albumentations
+ModuleNotFoundError: No module named 'albumentations'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/instantiate/_instantiate2.py", line 134, in _resolve_target
+    target = _locate(target)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/utils.py", line 653, in _locate
+    raise ImportError(
+ImportError: Error loading 'src.datamodules.mnist_datamodule.MNISTDataModule':
+ModuleNotFoundError("No module named 'albumentations'")
+Are you sure that 'mnist_datamodule' is importable from module 'src.datamodules'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mihai.ilie/Documents/work/ProjTemp/src/utils/utils.py", line 48, in wrap
+    metric_dict, object_dict = task_func(cfg=cfg)
+  File "/Users/mihai.ilie/Documents/work/ProjTemp/src/train.py", line 113, in train
+    datamodule: LightningDataModule = hydra.utils.instantiate(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/instantiate/_instantiate2.py", line 226, in instantiate
+    return instantiate_node(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/instantiate/_instantiate2.py", line 333, in instantiate_node
+    _target_ = _resolve_target(node.get(_Keys.TARGET), full_key)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/hydra/_internal/instantiate/_instantiate2.py", line 139, in _resolve_target
+    raise InstantiationException(msg) from e
+hydra.errors.InstantiationException: Error locating target 'src.datamodules.mnist_datamodule.MNISTDataModule', set env var HYDRA_FULL_ERROR=1 to see chained exception.
+full_key: datamodule
+[2024-03-04 14:05:33,089][src.utils.utils][INFO] - Output dir: /Users/mihai.ilie/Documents/work/ProjTemp/logs/train/runs/2024-03-04_14-05-32
+[2024-03-04 14:05:33,089][src.utils.utils][INFO] - Closing loggers...
+[2024-03-04 14:08:32,918][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2024-03-04 14:08:32,922][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2024-03-04 14:08:32,995][root][WARNING] - Malformed experiment 'models'. Detailed error Yaml file '/Users/mihai.ilie/Documents/work/ProjTemp/mlruns/models/meta.yaml' does not exist.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/store/tracking/file_store.py", line 270, in list_experiments
+    experiment = self._get_experiment(exp_id, view_type)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/store/tracking/file_store.py", line 394, in _get_experiment
+    meta = FileStore._read_yaml(experiment_dir, FileStore.META_DATA_FILE_NAME)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/store/tracking/file_store.py", line 1049, in _read_yaml
+    return _read_helper(root, file_name, attempts_remaining=retries)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/store/tracking/file_store.py", line 1042, in _read_helper
+    result = read_yaml(root, file_name)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/utils/file_utils.py", line 181, in read_yaml
+    raise MissingConfigException("Yaml file '%s' does not exist." % file_path)
+mlflow.exceptions.MissingConfigException: Yaml file '/Users/mihai.ilie/Documents/work/ProjTemp/mlruns/models/meta.yaml' does not exist.
+[2024-03-04 14:08:33,002][__main__][INFO] - Seed everything with <42>
+[2024-03-04 14:08:33,005][__main__][INFO] - Instantiating datamodule <src.datamodules.mnist_datamodule.MNISTDataModule>
+[2024-03-04 14:08:34,951][__main__][INFO] - Instantiating lightning model <src.modules.single_module.MNISTLitModule>
+[2024-03-04 14:08:35,058][__main__][INFO] - Instantiating callbacks...
+[2024-03-04 14:08:35,058][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-03-04 14:08:35,060][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-03-04 14:08:35,061][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-03-04 14:08:35,061][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-03-04 14:08:35,061][__main__][INFO] - Instantiating loggers...
+[2024-03-04 14:08:35,061][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2024-03-04 14:08:35,062][__main__][INFO] - Instantiating plugins...
+[2024-03-04 14:08:35,062][src.utils.utils][WARNING] - No plugins configs found! Skipping...
+[2024-03-04 14:08:35,062][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2024-03-04 14:08:35,095][__main__][INFO] - Logging hyperparameters!
+[2024-03-04 14:08:35,109][__main__][INFO] - Logging metadata!
+[2024-03-04 14:08:35,282][__main__][INFO] - Starting training!
+[2024-03-04 14:08:35,285][src.utils.utils][ERROR] - 
+Traceback (most recent call last):
+  File "/Users/mihai.ilie/Documents/work/ProjTemp/src/utils/utils.py", line 48, in wrap
+    metric_dict, object_dict = task_func(cfg=cfg)
+  File "/Users/mihai.ilie/Documents/work/ProjTemp/src/train.py", line 169, in train
+    trainer.fit(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/utils/autologging_utils/safety.py", line 555, in safe_patch_function
+    patch_function(call_original, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/utils/autologging_utils/safety.py", line 254, in patch_with_managed_run
+    result = patch_function(original, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/pytorch/_pytorch_autolog.py", line 367, in patched_fit
+    result = original(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/utils/autologging_utils/safety.py", line 536, in call_original
+    return call_original_fn_with_event_logging(_original_fn, og_args, og_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/utils/autologging_utils/safety.py", line 471, in call_original_fn_with_event_logging
+    original_fn_result = original_fn(*og_args, **og_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/utils/autologging_utils/safety.py", line 533, in _original_fn
+    original_result = original(*_og_args, **_og_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 696, in fit
+    self._call_and_handle_interrupt(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 650, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 735, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1095, in _run
+    self._data_connector.prepare_data()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py", line 120, in prepare_data
+    self.trainer._call_lightning_datamodule_hook("prepare_data")
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1569, in _call_lightning_datamodule_hook
+    return fn(*args, **kwargs)
+  File "/Users/mihai.ilie/Documents/work/ProjTemp/src/datamodules/mnist_datamodule.py", line 29, in prepare_data
+    MNIST(self.cfg_datasets.get("data_dir"), train=True, download=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torchvision/datasets/mnist.py", line 91, in __init__
+    super().__init__(root, transform=transform, target_transform=target_transform)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torchvision/datasets/vision.py", line 39, in __init__
+    if isinstance(root, torch._six.string_classes):
+AttributeError: module 'torch' has no attribute '_six'
+[2024-03-04 14:08:35,288][src.utils.utils][INFO] - Output dir: /Users/mihai.ilie/Documents/work/ProjTemp/logs/train/runs/2024-03-04_14-08-32
+[2024-03-04 14:08:35,288][src.utils.utils][INFO] - Closing loggers...
+[2024-03-04 14:15:40,885][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2024-03-04 14:15:40,888][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2024-03-04 14:15:41,084][__main__][INFO] - Seed everything with <42>
+[2024-03-04 14:15:41,088][__main__][INFO] - Instantiating datamodule <src.datamodules.mnist_datamodule.MNISTDataModule>
+[2024-03-04 14:15:43,188][__main__][INFO] - Instantiating lightning model <src.modules.single_module.MNISTLitModule>
+[2024-03-04 14:15:43,224][__main__][INFO] - Instantiating callbacks...
+[2024-03-04 14:15:43,224][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-03-04 14:15:43,226][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-03-04 14:15:43,227][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-03-04 14:15:43,228][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-03-04 14:15:43,228][__main__][INFO] - Instantiating loggers...
+[2024-03-04 14:15:43,228][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2024-03-04 14:15:43,229][__main__][INFO] - Instantiating plugins...
+[2024-03-04 14:15:43,229][src.utils.utils][WARNING] - No plugins configs found! Skipping...
+[2024-03-04 14:15:43,229][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2024-03-04 14:15:43,273][__main__][INFO] - Logging hyperparameters!
+[2024-03-04 14:15:43,307][__main__][INFO] - Logging metadata!
+[2024-03-04 14:15:44,180][__main__][INFO] - Starting training!
+[2024-03-04 14:15:51,269][src.utils.utils][INFO] - Output dir: /Users/mihai.ilie/Documents/work/SustTransformers/yet-another-lightning-hydra-template/logs/train/runs/2024-03-04_14-15-40
+[2024-03-04 14:15:51,269][src.utils.utils][INFO] - Closing loggers...
+[2024-03-04 14:50:22,195][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2024-03-04 14:50:22,198][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2024-03-04 14:50:22,361][__main__][INFO] - Seed everything with <42>
+[2024-03-04 14:50:22,364][__main__][INFO] - Instantiating datamodule <src.datamodules.mnist_datamodule.MNISTDataModule>
+[2024-03-04 14:50:22,561][__main__][INFO] - Instantiating lightning model <src.modules.single_module.MNISTLitModule>
+[2024-03-04 14:50:22,596][__main__][INFO] - Instantiating callbacks...
+[2024-03-04 14:50:22,596][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-03-04 14:50:22,598][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-03-04 14:50:22,599][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-03-04 14:50:22,600][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-03-04 14:50:22,600][__main__][INFO] - Instantiating loggers...
+[2024-03-04 14:50:22,600][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2024-03-04 14:50:22,601][__main__][INFO] - Instantiating plugins...
+[2024-03-04 14:50:22,601][src.utils.utils][WARNING] - No plugins configs found! Skipping...
+[2024-03-04 14:50:22,601][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2024-03-04 14:50:22,643][__main__][INFO] - Logging hyperparameters!
+[2024-03-04 14:50:22,663][__main__][INFO] - Logging metadata!
+[2024-03-04 14:50:23,501][__main__][INFO] - Starting training!
+[2024-03-04 14:51:04,812][__main__][INFO] - Starting testing!
+[2024-03-04 14:51:05,271][__main__][INFO] - Best ckpt path: /Users/mihai.ilie/Documents/work/SustTransformers/yet-another-lightning-hydra-template/logs/train/runs/2024-03-04_14-50-22/checkpoints/epoch006-loss_valid0.0826-metric_valid0.9778.ckpt
+[2024-03-04 14:51:05,271][__main__][INFO] - Starting saving state dicts!
+[2024-03-04 14:51:05,273][src.utils.saving_utils][INFO] - Last ckpt state dict saved to: /Users/mihai.ilie/Documents/work/SustTransformers/yet-another-lightning-hydra-template/logs/train/runs/2024-03-04_14-50-22/last_ckpt.pth
+[2024-03-04 14:51:05,283][src.utils.saving_utils][INFO] - Best ckpt state dict saved to: /Users/mihai.ilie/Documents/work/SustTransformers/yet-another-lightning-hydra-template/logs/train/runs/2024-03-04_14-50-22/best_ckpt_0_9778000116348267.pth
+[2024-03-04 14:51:05,285][src.utils.utils][INFO] - Output dir: /Users/mihai.ilie/Documents/work/SustTransformers/yet-another-lightning-hydra-template/logs/train/runs/2024-03-04_14-50-22
+[2024-03-04 14:51:05,285][src.utils.utils][INFO] - Closing loggers...
+[2024-03-04 14:51:05,285][src.utils.utils][INFO] - Metric name is None! Skipping metric value retrieval...
+[2024-03-04 15:14:02,525][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2024-03-04 15:14:02,528][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2024-03-04 15:14:02,700][__main__][INFO] - Seed everything with <42>
+[2024-03-04 15:14:02,704][__main__][INFO] - Instantiating datamodule <src.datamodules.mnist_datamodule.MNISTDataModule>
+[2024-03-04 15:14:02,910][__main__][INFO] - Instantiating lightning model <src.modules.single_module.MNISTLitModule>
+[2024-03-04 15:14:02,946][__main__][INFO] - Instantiating callbacks...
+[2024-03-04 15:14:02,946][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-03-04 15:14:02,948][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-03-04 15:14:02,949][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-03-04 15:14:02,949][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-03-04 15:14:02,949][__main__][INFO] - Instantiating loggers...
+[2024-03-04 15:14:02,949][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2024-03-04 15:14:02,950][__main__][INFO] - Instantiating plugins...
+[2024-03-04 15:14:02,950][src.utils.utils][WARNING] - No plugins configs found! Skipping...
+[2024-03-04 15:14:02,950][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2024-03-04 15:14:02,996][__main__][INFO] - Logging hyperparameters!
+[2024-03-04 15:14:03,016][__main__][INFO] - Logging metadata!
+[2024-03-04 15:14:03,878][__main__][INFO] - Starting training!
+[2024-03-04 15:14:45,946][__main__][INFO] - Starting testing!
+[2024-03-04 15:14:46,427][__main__][INFO] - Best ckpt path: /Users/mihai.ilie/Documents/work/yet-another-lightning-hydra-template/logs/train/runs/2024-03-04_15-14-02/checkpoints/epoch006-loss_valid0.0826-metric_valid0.9778.ckpt
+[2024-03-04 15:14:46,427][__main__][INFO] - Starting saving state dicts!
+[2024-03-04 15:14:46,430][src.utils.saving_utils][INFO] - Last ckpt state dict saved to: /Users/mihai.ilie/Documents/work/yet-another-lightning-hydra-template/logs/train/runs/2024-03-04_15-14-02/last_ckpt.pth
+[2024-03-04 15:14:46,439][src.utils.saving_utils][INFO] - Best ckpt state dict saved to: /Users/mihai.ilie/Documents/work/yet-another-lightning-hydra-template/logs/train/runs/2024-03-04_15-14-02/best_ckpt_0_9778000116348267.pth
+[2024-03-04 15:14:46,441][src.utils.utils][INFO] - Output dir: /Users/mihai.ilie/Documents/work/yet-another-lightning-hydra-template/logs/train/runs/2024-03-04_15-14-02
+[2024-03-04 15:14:46,441][src.utils.utils][INFO] - Closing loggers...
+[2024-03-04 15:14:46,441][src.utils.utils][INFO] - Metric name is None! Skipping metric value retrieval...
+[2024-04-16 00:24:56,670][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2024-04-16 00:24:56,674][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2024-04-16 00:24:56,724][__main__][INFO] - Seed everything with <42>
+[2024-04-16 00:24:56,727][__main__][INFO] - Instantiating datamodule <src.datamodules.mnist_datamodule.MNISTDataModule>
+[2024-04-16 00:24:59,159][__main__][INFO] - Instantiating lightning model <src.modules.single_module.MNISTLitModule>
+[2024-04-16 00:24:59,271][__main__][INFO] - Instantiating callbacks...
+[2024-04-16 00:24:59,272][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2024-04-16 00:24:59,274][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2024-04-16 00:24:59,275][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2024-04-16 00:24:59,275][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2024-04-16 00:24:59,275][__main__][INFO] - Instantiating loggers...
+[2024-04-16 00:24:59,275][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2024-04-16 00:24:59,276][__main__][INFO] - Instantiating plugins...
+[2024-04-16 00:24:59,276][src.utils.utils][WARNING] - No plugins configs found! Skipping...
+[2024-04-16 00:24:59,276][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2024-04-16 00:24:59,326][__main__][INFO] - Logging hyperparameters!
+[2024-04-16 00:24:59,345][__main__][INFO] - Logging metadata!
+[2024-04-16 00:24:59,505][__main__][INFO] - Starting training!
+[2024-04-16 00:24:59,508][src.utils.utils][ERROR] - 
+Traceback (most recent call last):
+  File "/Users/mihai.ilie/Documents/work/yet-another-lightning-hydra-template/src/utils/utils.py", line 48, in wrap
+    metric_dict, object_dict = task_func(cfg=cfg)
+  File "/Users/mihai.ilie/Documents/work/yet-another-lightning-hydra-template/src/train.py", line 169, in train
+    trainer.fit(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/utils/autologging_utils/safety.py", line 555, in safe_patch_function
+    patch_function(call_original, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/utils/autologging_utils/safety.py", line 254, in patch_with_managed_run
+    result = patch_function(original, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/pytorch/_pytorch_autolog.py", line 367, in patched_fit
+    result = original(self, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/utils/autologging_utils/safety.py", line 536, in call_original
+    return call_original_fn_with_event_logging(_original_fn, og_args, og_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/utils/autologging_utils/safety.py", line 471, in call_original_fn_with_event_logging
+    original_fn_result = original_fn(*og_args, **og_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/mlflow/utils/autologging_utils/safety.py", line 533, in _original_fn
+    original_result = original(*_og_args, **_og_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 696, in fit
+    self._call_and_handle_interrupt(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 650, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 735, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1095, in _run
+    self._data_connector.prepare_data()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py", line 120, in prepare_data
+    self.trainer._call_lightning_datamodule_hook("prepare_data")
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1569, in _call_lightning_datamodule_hook
+    return fn(*args, **kwargs)
+  File "/Users/mihai.ilie/Documents/work/yet-another-lightning-hydra-template/src/datamodules/mnist_datamodule.py", line 29, in prepare_data
+    MNIST(self.cfg_datasets.get("data_dir"), train=True, download=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torchvision/datasets/mnist.py", line 91, in __init__
+    super().__init__(root, transform=transform, target_transform=target_transform)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torchvision/datasets/vision.py", line 39, in __init__
+    if isinstance(root, torch._six.string_classes):
+AttributeError: module 'torch' has no attribute '_six'
+[2024-04-16 00:24:59,511][src.utils.utils][INFO] - Output dir: /Users/mihai.ilie/Documents/work/yet-another-lightning-hydra-template/logs/train/runs/2024-04-16_00-24-56
+[2024-04-16 00:24:59,511][src.utils.utils][INFO] - Closing loggers...
